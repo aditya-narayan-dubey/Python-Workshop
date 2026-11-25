@@ -1,0 +1,6 @@
+s1=(11,4,67,8,9)
+print(s1)
+s1.add(100)
+print(s1)
+s1.pop()
+print(s1)
