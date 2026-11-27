@@ -23,6 +23,15 @@
             #content1 {
                 background: aquamarine;
                 height: 400px;
+                width: 40%;
+                float: left;
+            }
+
+            #content2 {
+                background: rgb(168, 127, 255);
+                height: 400px;
+                width: 60%;
+                float: right;
             }
 
             #footer {
@@ -38,13 +47,27 @@
             }
 
             #span {
-                color: bisque;
+                color: aliceblue;
                 font-size: 30px;
                 font-weight: bolder;
                 font-style: italic;
                 position: absolute;
                 margin-top: 30px;
                 margin-left: 150px;
+            }
+            p{
+                font-size: 22px;
+                font-style: bold;
+                text-align: justify;
+                padding-left: 15px;
+                padding-right: 10px;
+            }
+            #menu a
+            {
+                color: aliceblue;
+                font-size: 22px;
+                margin-right: 20px;
+                text-decoration: none;
             }
         </style>
     </head>
@@ -58,15 +81,47 @@
             </div>
 
             <div id="menu">
-                Menu Section
+                <a href="#">Home</a>
+                <a href="#">About us</a>
+                <a href="#">Services</a>
+                <a href="#">Register</a>
+                <a href="#">Login</a>
+                <a href="#">Contact us</a>
             </div>
 
             <div id="content1">
-                Content Section
+                Login Form
             </div>
-
+            <div id="content2">
+                <marquee direction="up" onmouseover="stop()" onmouseout="start()" style="height: 400px;">
+                <p>
+                    This is an educational site demo.
+                    This is an educational site demo.
+                    This is an educational site demo.
+                    This is an educational site demo.
+                    This is an educational site demo.
+                    This is an educational site demo.
+                    This is an educational site demo.
+                    This is an educational site demo.
+                    This is an educational site demo.
+                    This is an educational site demo.
+                    This is an educational site demo.
+                    This is an educational site demo.
+                    This is an educational site demo.
+                    This is an educational site demo.
+                    This is an educational site demo.
+                    This is an educational site demo.
+                    This is an educational site demo.
+                    This is an educational site demo.
+                </p>
+                </marquee>
+            </div>
+            <br style="clear: both;">
             <div id="footer">
-                Footer Section
+                <div align="center" style="color: aliceblue;">
+                    &copy;education-2026 | Design By : Adi
+
+                </div>
             </div>
 
         </div>
