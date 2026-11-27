@@ -1,0 +1,4 @@
+Css Box model
+its a collection of boxes that wraps around every html elements.
+when we are talking about template it design with division tag which includes following properties
+margin border , padding, and inside padding we maintain content.
